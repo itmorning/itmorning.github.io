@@ -36,19 +36,43 @@
         color: #95a5a6;
         text-decoration: none;
       }
+      .fl-rt{
+        position: absolute;
+        width: 200px;
+        height: 600px;
+        background-color: white;
+        top: 20px;
+        border-top-right-radius: 35%; 
+      }
+      .fl-lt{
+        position: absolute;
+        width: 200px;
+        height: 600px;
+        background-color: white;
+        top: 20px;
+        border-top-left-radius: 45%; 
+        right: 0px;
+      }
+      .change{
+        display: inline-block;
+        border: 1px dashed #ecf0f1;
+      }
     </style>
   </head>
   <body>
-    <div class="container body">
+    <div class="fluid-container body">
+      <div class="fl-rt"></div>
+      <div class="fl-lt"></div>
       <div class="row">
         <div class="col-md-3"></div>
-        <div class="col-md-6">
+        <div class="col-md-6"><br><br>
           <center><h1>ONM</h1></center><hr style="background-color: white;">
           <p>Files:</p>
           <ul>
             <li><a href="ONM/OM Note 2014(Final)-1.pdf"><i class="fa fa-file-pdf-o"></i> Note + Assignment</a></li>
-
-          </ul>
+          </ul><br><br>
+          <center><h4 class="change">By: Pradip Bayung Rai</h4></center>
+          <br><br>
         </div>
         <div class="col-md-3"></div>
       </div>
