@@ -41,13 +41,36 @@
       .important{
         color: #e67e22;
       }
+      .fl-rt{
+        position: absolute;
+        width: 200px;
+        height: 900px;
+        background-color: white;
+        top: 20px;
+        border-top-right-radius: 35%; 
+      }
+      .fl-lt{
+        position: absolute;
+        width: 200px;
+        height: 900px;
+        background-color: white;
+        top: 20px;
+        border-top-left-radius: 45%; 
+        right: 0px;
+      }
+      .change{
+        display: inline-block;
+        border: 1px dashed #ecf0f1;
+      }
     </style>
   </head>
   <body>
-    <div class="container body">
+    <div class="fluid-container body">
+      <div class="fl-rt"></div>
+      <div class="fl-lt"></div>
       <div class="row">
         <div class="col-md-3"></div>
-        <div class="col-md-6">
+        <div class="col-md-6"><br><br>
           <center><h1>COA</h1></center><hr style="background-color: white;">
           <p>Files:</p>
           <ul>
@@ -67,7 +90,8 @@
             <h3>Tutorials:-</h3>
             <li><a href="COA/Coa Tutorial 1.pdf"><i class="fa fa-file-pdf-o"></i> Tutorial 1</a></li>
             <li><a href="COA/COA-tutorial-2.pdf"><i class="fa fa-file-pdf-o"></i> Tutorial 2</a></li>
-          </ul>
+          </ul><br><br>
+          <center><h4 class="change">By: Pradip Bayung Rai</h4></center><br><br>
         </div>
         <div class="col-md-3"></div>
       </div>
